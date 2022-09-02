@@ -46,18 +46,6 @@ print_project_assignments <- function(assignment_df){
   }
 }
 
-print_announcements <- function(announcement_df){
-  announcement_names <- announcement_df %>% 
-    select(announcement) %>% 
-    drop_na() %>%
-    pull()
-  
-  if(length(announcement_names > 0)) {
-    cat("\n")
-    cat(paste("", fa(name ="bullhorn"), "   ", announcement_names), sep = "  \n")
-  }
-}
-
 print_due_today <- function(topic){
   this_week_required_reading <- required_reading %>% filter(topic_abbr == topic) 
   this_week_project_assignments <- project_assignments %>% filter(topic_abbr == topic)
@@ -72,7 +60,3 @@ print_further_reading <- function(topic){
   print_readings(this_week_optional_reading)
 }
 
-print_today_announcements <- function(topic){
-  this_week_announcement <- announcements %>% filter(topic_abbr == topic) 
-  print_announcements(this_week_announcement)
-}

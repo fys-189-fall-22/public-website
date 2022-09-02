@@ -1,5 +1,5 @@
 ---
-title: "SDS 192: Introduction to Data Science"
+title: "FYS 189: Data and Social Justice"
 author: "Lindsay Poirier"
 date: "Last updated on `r Sys.Date()`"
 ---
@@ -14,11 +14,21 @@ library(bsplus)
 library(htmltools)
 ```
 
-Data science involves applying a set of strategies to transform a recorded set of values into something from which we can glean knowledge and insight. This course will introduce you to concepts and methods from the field of data science, along with how to apply them in `R`. You will learn how to acquire, clean, wrangle, and visualize data. You will also learn best practices in data science workflows, such as code documentation and version control. Issues in data ethics will be addressed throughout the course.
+## What is this course about?
 
-Classes will be held on Mondays, Wednesdays, and Fridays from 9:25 AM to 10:40 AM.
+Data is a powerful tool for making claims - claims that can advance equity and social justice, as well as claims that can misrepresent civic issues and marginalize communities. This course examines how power operates in and through the production, analysis, and presentation of data, while helping students develop skill in approaching data science work in more ethical and equitable ways.
 
-There are no prerequisites, but a willingness to write code is necessary. Coding for the first time can be intimidating, but I intend do everything in my power to support you through the learning curve and to make things both fun and relevant in the process. I personally picked up most of my data science skills through a lot of trial-and-error, practice, and curiosity. My hope is that, in this course, you will learn through experimentation, along with independent and collaborative problem-solving. Honing these competencies will serve you as you move on to other courses in the SDS program and/or at Smith.
+In this course, students will examine the socio-political forces that impact the availability, structure, and governance of data regarding various social justice issues. Students will also learn techniques for presenting data in ways that foreground the contexts of data production and remain accountable to diverse communities. Datasets about health equity, housing justice, environmental justice, and carceral justice will be studied, analyzed, and visualized. In doing so, students will learn to identify the diverse institutions and stakeholders involved in data production, unpack the cultural histories and vested interests animating data semantics, consider what people and problems gets erased in data structuring, and evaluate the ethical tradeoffs that data scientists grapple with as they plan for the presentation of data.
+
+## What should I be able to do by the end of the course?
+
+1. Communicate how cultural, political, and technical forces shape the collection, categorization, presentation, and publication of data
+2. Examine data semantics and the power-laden semiotic systems from which they emerge
+3. Recognize how diverse data manipulation and visualization techniques applied to the same dataset can produce competing claims and evaluate which techniques best align with advancing social justice and equity
+4. Produce data visualizations that foreground the contexts of data production and demonstrate accountability to the people represented by the numbers
+
+Classes will be held Monday 1:40 PM - 2:55 PM; Wednesday 1:20 PM - 2:35 PM / Bass 204
+
 
 ## Course Instructor
 
@@ -38,7 +48,7 @@ While you're welcome to refer to me as Professor Poirier, I would prefer it if y
 ::: panel-tabset
 #### Slack
 
-I can best support students in this course when I can readily keep tabs on our course-related communication. Because of this, I ask that you please don't email me regarding course-related questions or issues. The best way to get in touch with me is via our course Slack. If you have course-related questions, I encourage you to ask them in the `#sds-192-questions` channel. When discretion is needed, feel free to DM. Please reserve more formal concerns like grades or accommodation requests for an in-person (or in-person virtual) conversation.
+I can best support students in this course when I can readily keep tabs on our course-related communication. Because of this, I ask that you please don't email me regarding course-related questions or issues. The best way to get in touch with me is via our course Slack. If you have course-related questions, I encourage you to ask them in the `#fys-189-questions` channel. When discretion is needed, feel free to DM. Please reserve more formal concerns like grades or accommodation requests for an in-person (or in-person virtual) conversation.
 
 *During the week, I will try my best to answer all Slack messages within 24 hours of receiving them. Please note that to maintain my own work-life balance, I often don't answer Slack messages late in the evenings or on the weekends. It's important that you plan when you start your assignments accordingly.*
 
@@ -47,29 +57,21 @@ I can best support students in this course when I can readily keep tabs on our c
 Office hours are a great opportunity for us to chat about what you're learning in the course, clarify expectations on assignments, and review work in progress. I also love when students drop in to office hours to request book recommendations, discuss career or research paths, or just to say hi! I encourage each student in the course to join office hours at least once this semester. If you're unable to attend my office hours at the regularly scheduled time, there is link on Moodle to book a meeting with me.
 
 -   Monday, 3-4, McConnell 212-213
--   Wednesday, 3-4, McConnell 212-213
+-   Wednesday, 3-5, McConnell 212-213
 :::
 
 ## Course Texts
 
-A number of excellent textbooks introducing data science concepts and methods have been written in the past few years, including a few from faculty in the Smith SDS department. To accompany the topics we will cover each week, I will be selecting my favorite chapters from these books and posting them to Perusall. However, all three books we will engage in this course cover almost every topic we will address, so feel free to supplement your reading with corresponding chapters in the other books: especially if you find yourself drawn to the teaching and writing style in a certain book. All books are available for free online.
-
--   Baumer, Benjamin S., Daniel T. Kaplan, and Nicholas J. Horton. 2021. *Modern Data Science with R*. 2nd ed. CRC Press. https://mdsr-book.github.io/mdsr2e/.
-
--   Irizarry, Rafael A. 2022. *Introduction to Data Science. Data Analysis and Prediction Algorithms with R*. https://rafalab.github.io/dsbook/.
-
--   Ismay, Chester, and Albert Y. Kim. 2021. *Modern Dive: Statistical Inference via Data Science*. CRC Press. https://moderndive.com/.
-
-Each week I will also list optional reading and resources in our course [schedule](schedule.html) that you may reference if you are struggling with a topic or if you wish to explore that topic further. I will update this list often throughout the semester.
+All course readings will be made available on Perusall, which can be accessed through our course Moodle page. 
 
 ## Assessment
 
 This course will be graded via a [standards-based assessment system](grading_contract.html).
 
 ::: callout-tip
-## Spinelli Center
+## Jacobson Center
 
-Smith's [Spinelli Center](https://www.smith.edu/qlc/tutoring.html) offers a number of resources to support SDS students. Spinelli Center Data Assistants will visit our classroom regularly to support you through lab work. The Center also offers [drop-in tutoring hours](https://www.smith.edu/qlc/tutoring.html?colStats=open#PanelStats) Sunday through Thursday 7-9 PM. Finally, you can drop-in or schedule an appointment with the Data Research and Statistics Counselor (Osman Keshawarz). To schedule an appointment, email [qlctutor\@smith.edu](mailto:qlctutor@smith.edu).
+Smith's [Jacobson Center](https://www.smith.edu/academics/jacobson-center) asserts that *all* students can improve their communication and learning skills. I encourage all students to take advantage of their writing support services, workshops, and tutors.
 :::
 
 ## Policies
@@ -81,11 +83,21 @@ This is a 4-credit course with 3 hours per week of in-classroom instructions. Sm
 
 ### Attendance
 
-Attending class is not only important for your learning but also an act of community. Attendance is expected in this course. Many course assignments will be completed in-class. That said, you do not need to inform me when you will be absent. If you are sick, please stay home. If you must miss a class entirely, you should contact a peer to discuss what was missed.
+Attending class is not only important for your learning but also an act of community.  Attendance is expected in this course. Many course assignments will be completed in-class. That said, you do not need to inform me when you will be absent. If you are sick, please stay home. If you must miss a class entirely, you should contact a peer to discuss what was missed.
+
+### Participation
+
+Active participation in this course is generally expected and encouraged. That said, we all have off-days - be it from illness, sadness, heartbreak, or exhaustion. I too will have off-days where my words just don't seem to cohere, or my brain will feel jumbled. Because of this, I've provided a number of ways to earn engagement credit throughout the semester.  
+
+### Readings
+
+I have put a lot of thought into the assigned readings for this course - aiming to select pieces that are relevant, engaging, challenging, accessible, and represent a diverse set of voices. Our classroom discussions will be much richer, more meaningful, and fun when all students come to class having completed and annotated all assigned course readings. While I know that reading may seem like a low priority when you have impending assignments that you need to physically hand-in, I encourage you not to wait until the last minute to complete course readings. You will get the most out of the content if you give yourself time to digest and reflect on it. 
+
+If you are struggling to keep up with the readings, please reach out to me. I'm more than happy to talk through effective reading strategies and to provide more guidance on what I'd like you to get out of a specific piece. Mid-way through the semester, I will give you an opportunity to reflect on and self-assess your reading engagement and participation in classroom discussions. 
 
 ### Extensions
 
-There is an automatic 24-hour **grace period** on all *lab and project assignments*. There will be no penalties for submitting the project within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour **extension** on any project or lab assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the Extension Request form on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted.
+There is an automatic 24-hour **grace period** on all assignments. There will be no penalties for submitting the project within this 24-hour period, and you do not need to inform me that you intend to take the extra time. You can also request up to a 72-hour **extension** on any assignment, as long *as you make that request at least 48 hours before the original assignment due date*. You can request an extension by filling out the Extension Request form on Moodle, and I will confirm your extension on Slack. Beyond this, late assignments will not be accepted.
 
 ### Academic Honesty
 
@@ -99,12 +111,6 @@ Any cases of dishonesty or plagiarism will be reported to the Academic Honor Boa
 -   Failing to cite your sources correctly.
 -   Falsifying or misrepresenting information in submitted work.
 -   Paying another student or service to complete assignments for you.
-:::
-
-::: callout-important
-## Deadlines for Quizzess and Course Advancement Assignments
-
-The standards you will be practicing in this course all build off of each other, and it's important that I know how students are doing on each standard in order to direct my teaching going forward. Because of this, the deadlines for quizzes are a bit more firm than for other assignments. On the course schedule and in Moodle you will see a suggested deadline for quizzes and a final deadline. I won't be able to accept quiz submissions after the final deadline, so you'll want to be sure to stay on top of these dates. Similarly, course advancements assignments are assignments that need to be completed to keep our course moving. Because of this, they need to be completed by the due date. I will give you an opportunity to work on many of these assignments in class. 
 :::
 
 ## Community
@@ -128,7 +134,7 @@ I hope that we can foster a collaborative and caring environment in this classro
 -   Consider when to step up and when to step back in class discussions, creating space for others to contribute. Listening is just as important to community-building as speaking.
 -   Acknowledge that there is much we don't know about how our colleagues experience the world. ...but don't ask colleagues to speak on behalf of a social group you perceive them to be a part of.
 -   Cheer on colleagues as they give presentations or try something out for the first time.
--   Ask questions often in our `#sds-192-questions` channel. Help each other out by answering questions when you can.
+-   Ask questions often in our `#fys-189-questions` channel. Help each other out by answering questions when you can.
 -   Mistakes happen. I will certainly make mistakes in class. Admit mistakes, and then move on.
 
 ### Pronouns
@@ -157,7 +163,7 @@ A trigger is a topic or image that can precipitate an intense emotional response
 ::: panel-tabset
 ### Moodle
 
-Grades, forms, handouts, and quizzes will be available on the course Moodle.
+Grades, assignments, and handouts will be available on the course Moodle.
 
 ### Perusall
 
@@ -166,17 +172,9 @@ All course readings and recorded lectures will be available on Perusall. You can
 ### Slack
 
 -   `#general`: Course announcements (only I can post)
--   `#sds-192-discussions`: Share news articles and relevant opportunities
--   `#sds-192-questions`: Ask and answer questions about our course
+-   `#fys-189-discussions`: Share news articles and relevant opportunities
+-   `#fys-189-questions`: Ask and answer questions about our course
 -   You can also create private Slack channels with your project group members.
 
-### GitHub
-
-I will be using GitHub Classroom to distribute several course assignments, and you will submit assignments by pushing changes to template documents to a private GitHub repository. I will provide guidance on how to do this early in the semester.
 :::
 
-::: callout-note
-## RStudio/RStudio Server
-
-This class will use the R statistical software package. In the first week of the course, I will help you install and configure R and RStudio. If you are using a laptop, you will install both on that computer. If you are using a Chromebook or Tablet, an account will be created for you on the [Smith College RStudio Server](http://rstudio.smith.edu) so that you can access a cloud-based version of RStudio. You should let me know in the first week of the course if you are using a Chromebook or tablet.
-:::
