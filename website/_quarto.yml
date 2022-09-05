@@ -5,7 +5,7 @@ project:
 website:
   navbar:
     background: primary
-    title: "SDS 192: Intro to Data Science"
+    title: "FYS 189: Data and Social Justice"
     right:
       - text: "Syllabus"
         href: index.html
