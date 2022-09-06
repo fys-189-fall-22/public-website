@@ -22,7 +22,7 @@ There are many benefits to contract grading. Here are there reasons why I've opt
 Each row indicates what labor you need to complete in the course to earn the grade indicated in the first column of that row. Note that to earn a particular grade *all* minimum labor criteria in the corresponding row must be met.
 
 | Grade | Blog Posts                 | Blog Post Peer Review | Missed Checkpoints for Final Project^1^ | Incomplete Reading Annotations | Community Labor Points | Enrichment |
-|-------:|------------|---------|-----------|-------------|-----------|--------------|
+|------:|----------------------------|-----------------------|-----------------------------------------|--------------------------------|------------------------|------------|
 |     A | 2 + 1 substantive revision | 2                     | 1 or fewer                              | 1 or fewer                     | 8 or more              | 3          |
 |     B | 2 + 1 substantive revision | 2                     | 1 or fewer                              | 1 or fewer                     | 8 or more              | 0          |
 |     C | 1 + 1 substantive revision | 1                     | 3 or fewer                              | 3 or fewer                     | 6 or more              | 0          |
@@ -56,7 +56,7 @@ Each week a selection of course readings will be posted on Perusall. For each se
 It's important to me that we establish a collaborative learning environment in this course. Work to build and sustain communities is often an invisible form of labor. In an effort to foreground and reward that labor, I've built opportunities to contribute to the course community into our grading contract. To earn a 'B' or higher in the course, you will need to earn at least 8 community labor points. Note that there are certain forms of labor that you can perform more than once, but there are max points that you can earn in each category.
 
 | Points | Labor                                                                                                                                       | Max Points |
-|------------:|-----------------------------------------------|------------:|
+|-------:|---------------------------------------------------------------------------------------------------------------------------------------------|-----------:|
 |     +1 | Contribute a unique term to our Term glossary on Moodle. Define the term, citing relevant sources.                                          |          2 |
 |     +1 | Start a discussion thread on course-relevant topic in the #general channel on Slack. Respond to at least one other person on the thread.^1^ |          4 |
 |   +0.5 | Respond to a discussion thread on Slack.                                                                                                    |          3 |

@@ -9,7 +9,7 @@ website:
     right:
       - text: "Syllabus"
         href: index.html
-      - text: "Standards Grading"
+      - text: "Grading Contract"
         href: grading_contract.html
       - text: "Schedule"
         href: schedule.html
